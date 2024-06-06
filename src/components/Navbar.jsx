@@ -9,13 +9,14 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center mx-auto'>
         <Link to='/' className={`${styles.padding}`}>
           <div>
-            <p className={`${styles.headText} ${styles.paddingX}`}>Codes</p>
+            <p className={`${styles.headText} ${styles.paddingX}`}>http</p>
             <p className={`${styles.paddingX} text-primary uppercase text-[30px] mt-[-15px]`}>
-              and the way they speak
+              and the way it speaks
             </p>
           </div>
         </Link>
         <p className='sm:flex px-[200px] hover:text-primary cursor-pointer'>About</p>
+        {/* //TODO - show a little description */}
       </div>
     </nav >
   );
