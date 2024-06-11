@@ -7,7 +7,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-[#1c1c1d] min-h-screen'>
         <Navbar />
-        <div className='relative z-0'>
+        <div className='relative z-0 m-1'>
           <Memes />
         </div>
       </div>
