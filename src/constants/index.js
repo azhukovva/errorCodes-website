@@ -8,6 +8,9 @@ import {
     code202,
     code203,
     code204,
+    code205,
+    code206,
+    code207,
     b100,
     b101,
     b102,
@@ -16,7 +19,10 @@ import {
     b201,
     b202,
     b203,
-    b204
+    b204,
+    b205,
+    b206,
+    b207
 } from '../assets';
 
 const codes = [
@@ -50,28 +56,28 @@ const codes = [
     },
     {
         name: '200',
-        description: 'Early Hints',
+        description: 'OK',
         text: 'The HTTP 200 OK success status response code indicates that the request has succeeded. A 200 response is cacheable by default.',
         image: code200,
         imageBefore: b200
     },
     {
         name: '201',
-        description: 'Early Hints',
+        description: 'Created',
         text: 'The HTTP 201 Created success status response code indicates that the request has succeeded and has led to the creation of a resource.',
         image: code201,
         imageBefore: b201
     },
     {
         name: '202',
-        description: 'Early Hints',
+        description: 'Accepted',
         text: 'The HTTP 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet.',
         image: code202,
         imageBefore: b202
     },
     {
         name: '203',
-        description: 'Early Hints',
+        description: 'Non-Authoritative Information',
         text: 'The HTTP 203 Non-Authoritative Information response status indicates that the request was successful but the enclosed payload has been modified by a transforming proxy from that of the origin server\'s 200 OK response.',
         image: code203,
         imageBefore: b203
@@ -82,6 +88,27 @@ const codes = [
         text: 'The HTTP 204 No Content success status response code indicates that a request has succeeded, but that the client doesn\'t need to navigate away from its current page.',
         image: code204,
         imageBefore: b204
+    },
+    {
+        name: '205',
+        description: 'Reset Content',
+        text: 'The HTTP 205 Reset Content response status tells the client to reset the document view (ie. clear the content of a form, reset canvas state or the UI).',
+        image: code205,
+        imageBefore: b205
+    },
+    {
+        name: '206',
+        description: 'Partial Content',
+        text: 'The HTTP 206 Partial Content success status response code indicates that the request has succeeded and the body contains the requested ranges of data, as described in the Range header of the request.',
+        image: code206,
+        imageBefore: b206
+    },
+    {
+        name: '207',
+        description: 'Multi Status',
+        text: 'The HTTP 207 Multi-Status response code indicates that there might be a mixture of responses.',
+        image: code207,
+        imageBefore: b207
     },
 ]
 

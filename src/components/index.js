@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
 import Memes from "./Memes";
-import Card from "./Card";
+import Modal from "./Modal";
 
-export { Navbar, Memes, Card };
+export { Navbar, Memes, Modal };
